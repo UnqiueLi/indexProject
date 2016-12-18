@@ -1,0 +1,265 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: 'SimHei','sans-serif','Arial';
+    font-size: 13px;
+}
+body, html {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+#allmap{
+    width:100%;
+    height:400px;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.res_img{
+    width: 100%;
+    height: 100%;
+}
+.nav{
+    width: 100%;
+    height: 70px;
+    background: url("../images/navbg.png") repeat;
+}
+.navcontain{
+    width: 1200px;
+    margin: 0 auto;
+    background: red;
+}
+.nav_left{
+    float: left;
+}
+.nav_left li{
+    float: left;
+    height: 70px;
+    line-height: 70px;
+}
+.nav_left li img{
+    padding: 9px 0;
+}
+.nav_left li span{
+    color: #125777;
+    padding: 0 15px;
+}
+.nav_left li a{
+    color: #757c7e;
+}
+.nav_right{
+    float: right;
+}
+.nav_right li{
+    float: left;
+    height: 70px;
+    line-height: 70px;
+}
+.nav_right li a{
+    color: #ffffff;
+    padding: 0 20px;
+}
+.active{
+    border-bottom: 1px solid #32b0ee;
+}
+.banner{
+    width: 100%;
+    height: 730px;
+    position: relative;
+    overflow: hidden;
+}
+.pic{
+    width: 4800px;
+    position: absolute;
+    left: 0;
+}
+.pic li{
+    float: left;
+}
+.banner .picCir{
+    position: absolute;
+    bottom: 70px;
+    left: 47%;
+}
+.banner .picCir li{
+    float: left;
+    font-size: 30px;
+    padding-right: 10px;
+    cursor: pointer;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    border: 1px solid #374950;
+    margin: 0 12px;
+}
+.activeCir{
+    background-color: #fff;
+}
+.contain{
+    width: 100%;
+}
+.contain_mid{
+   width: 1200px;
+    margin: 0 auto;
+}
+.contain .title h1,h2{
+    font-family: 'Microsoft YaHei';
+    text-align: center;
+}
+.contain .title h1{
+    color: #0eb493;
+    font-size: 25px;
+    padding-top: 42px;
+}
+.contain .title h2{
+    font-size: 16px;
+    padding-top: 14px;
+}
+.contain .title  b{
+    width: 229px;
+    height: 70px;
+    display: block;
+    margin: 0 auto;
+    padding-top: 24px;
+}
+.contain_mid .title p {
+    font-size: 18px;
+    text-align: center;
+    color: #062033;
+    line-height: 24px;
+    padding: 0 110px;
+}
+.banner_img{
+    margin-top: 112px;
+    position: relative;
+    height: 500px;
+}
+.banner_img li{
+    float: left;
+    width: 270px;
+    height: 365px;
+    margin-right: 31px;
+    position: relative;
+}
+.banner_img .showbox a{
+    height: 300px;
+    display: block;
+}
+.banner_img .showbox{
+    text-align: center;
+}
+.banner_img .showbox h2{
+    font-size: 18px;
+    color: #062033;
+    line-height: 24px;
+    font-weight: bold;
+    padding-top: 20px;
+}
+.banner_img .showbox span{
+    color: #979ca1;
+    line-height: 24px;
+}
+.banner_img .showbox .activefont{
+    color: #0eb493;
+}
+.banner_img .hidebox{
+    width: 270px;
+    height: 300px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background: #1ab898;
+    opacity: 0.95;
+    padding: 24px;
+    line-height: 24px;
+    text-align: center;
+    display: none;
+}
+.banner_img .hidebox h1,.banner_img .hidebox p{
+    font-size: 15px;
+    color: #fff;
+}
+.banner_img .hidebox p{
+    padding-top: 20px;
+}
+.banner_img .hidebox .theme{
+    padding: 50px 40px 0px;
+}
+.banner_img .hidebox i{
+    float: left;
+    width: 42px;
+    height: 42px;
+    margin-right: 4px;
+}
+.bird{
+    background:rgba(0,0,0,0.3)  url("../images/sripte.png") no-repeat -10px -8px;
+}
+.facebook{
+    background:rgba(0,0,0,0.3)  url("../images/sripte.png") no-repeat -53px -11px;
+}
+.gool{
+    background:rgba(0,0,0,0.3)  url("../images/sripte.png") no-repeat -108px -8px;
+}
+.banner_img .picCir1{
+    position: absolute;
+    bottom: 70px;
+    left: 45%;
+}
+.banner_img .picCir1 li{
+    float: left;
+    font-size: 30px;
+    padding-right: 10px;
+    cursor: pointer;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    border: 1px solid #374950;
+    margin: 0 12px;
+}
+.activeCir1{
+    background-color: #062033;
+}
+.server{
+    clear: both;
+    width: 100%;
+}
+.conborder{
+    border-bottom: 5px solid #062033;
+}
+.footer{
+    width: 100%;
+    height: 500px;
+    background-color: #37bda1;
+}
+.confooter{
+    width: 1200px;
+    margin: 0 auto;
+    padding-top: 100px;
+}
+.confooter ul{
+    float: left;
+    color: #fff;
+    padding-right: 90px;
+}
+.confooter ul li{
+    padding: 5px;
+}
+.confooter ul h1{
+    font-size: 28px;
+    font-weight: 500;
+}
+.confooter ul p,.confooter ul span{
+    font-size: 20px;
+    line-height: 24px;
+}
+.confooter ul li a{
+    color: #062033;
+    display: inline-block;
+    margin-top: 150px;
+}
